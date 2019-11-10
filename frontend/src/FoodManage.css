@@ -1,0 +1,38 @@
+#FoodManage .plusIcon {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0;
+  cursor: pointer;
+  line-height: 50px;
+}
+#FoodManage .plusIcon:hover {
+  border-color: aqua;
+  color: aqua;
+}
+
+#FoodManage .foodItem {
+  margin-left:50%;
+  transform:translateX(-50%);
+  margin-bottom:10px;
+  padding:10px;
+  width:100%
+}
+#FoodManage .foodName {
+  font-size: 1.5em;
+  text-align: center;
+}
+#FoodManage .foodDetails {
+  font-size: 1.2em;
+  color:black;
+}
+#FoodManage .foodDetails p:hover .icon {
+  display: block;
+}
+#FoodManage .foodDetails .icon {
+  float: right;
+  display: none;
+}
+#FoodManage img {
+  width: 100%;
+  height: 100%;
+}

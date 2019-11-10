@@ -1,0 +1,28 @@
+#Manage {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+  min-width: 400px;
+  max-width: 800px;
+}
+#Manage h2 {
+  margin: 20px;
+}
+#Manage .items {
+  width: 100%;
+}
+#Manage .items div {
+  border:1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 100px;
+  margin: 20px;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  border-radius: 4px;
+}
+#Manage .items div:hover {
+  border-color: aquamarine;
+  color: aquamarine;
+}

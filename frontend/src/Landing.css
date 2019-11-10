@@ -1,0 +1,28 @@
+#Landing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 500px;
+  transform: translate(-50%,-50%);
+}
+#Landing .countItem {
+  width: 20%;
+  line-height: 50px;
+  text-align:center;
+  float:left;
+  margin: 10px 2.5%;
+  border: 1px solid ;
+  font-size:20px;
+  border-radius: 20px;
+}
+#Landing .countItem.active {
+  border-color: #1890ff;
+  background-color:#1890ff;
+  color: white;
+}
+#Landing .startButton {
+  margin-top:30px;
+  width:100%;
+  font-size:20px
+}

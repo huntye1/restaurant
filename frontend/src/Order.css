@@ -1,0 +1,107 @@
+#Order {
+  overflow: hidden;
+}
+#Order .loading {
+  text-align: center;
+}
+#Order .title {
+  text-align: center;
+}
+
+#Order #ShopCart{
+  border:1px solid;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  height: 50px;
+  border: 1px solid gray;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  max-width: 800px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  line-height: 50px;
+}
+#Order #foods {
+  padding-bottom: 50px;
+}
+#Order .foodItem p{
+  font-size: 16px;
+}
+#Order .foodItem {
+  margin: 5px;
+}
+
+#Order .foodItem img{
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+#Order .foodItem .amount {
+  font-size: 16px;
+  font-weight: bold;
+}
+#Order .shoppingCart{
+  font-size: 40px;
+  margin: 3px;
+  cursor: pointer;
+}
+#Order .totalPrice {
+  font-size: 18px;
+  margin:15px;
+}
+#Order .checkout {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#Order .myCart {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid gray;
+  max-height: 370px;
+  border-radius: 4px;
+  overflow: auto;
+  transform: translate(0,0);
+}
+#Order .myCartFoodItem{
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+#Order .myCartFoodItem:first-of-type {
+  margin-top: 10px;
+}
+#Order .myCartFoodItem:last-child(){
+  border-bottom:  none;
+}
+#Order .myCartFoodItem .buttons {
+  display: inline-block;
+}
+#Order .myCartFoodItem img{
+  width: 50px;
+  height: 50px;
+}
+
+#Order  .close {
+  /* margin: 10px; */
+  float: right;
+  position: sticky;
+  right: 10px;
+  top: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#Order .fr {
+  float: right;
+}
+ul ,li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
