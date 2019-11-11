@@ -6,10 +6,11 @@
 
 管理员👇👇👇    
 
-![Mu4SxA.png](https://s2.ax1x.com/2019/11/10/Mu4SxA.png)
+![Mu4SxA.png](https://aboutme.wenm.me/static/manager.png)
 
 点餐👇👇👇
 
-![MuhOUO.png](https://s2.ax1x.com/2019/11/10/MuhOUO.png)
+![MuhOUO.png](https://aboutme.wenm.me/static/customer.png)
 
 > [在线地址](http://restaurant.wenm.me)  [代码地址](https://github.com/huntye1/restaurant)
+
